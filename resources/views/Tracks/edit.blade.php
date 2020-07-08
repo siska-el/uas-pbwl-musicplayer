@@ -32,7 +32,7 @@
 	<div class="container">
 	<div class="col-md-10">
 
-	<h2>Edit Data Album</h2>
+	<h2>Edit Data Tracks</h2>
 	<form action="{{ url('/tracks/' . $rows->id)}}" method="post" enctype="multipart/form-data">
 	<input name="_method" type="hidden" value="patch" >
 	@csrf
@@ -72,14 +72,14 @@
 		<div class="form-group row">
 			<label for="inputEmail3" class="col-sm-3 col-form-label" style="font-size: 20px">Durasi</label>:
 		<div class="col-sm-5">
-			<input type="text" name="tracks_time" value="{{ $rows->tracks_time}}" style="background-color: #87CEFA; color: white" class="form-control" id="inputEmail3">
+			<input type="text" name="tracks_time" value="{{ $rows->tracks_time}}" style="background-color: #FFB6C1; color: white" class="form-control" id="inputEmail3">
 		</div>
 		</div>
 
 	</table>
 			<div class="form-group row">
 			<div class="col-sm-10">
-				<input type="submit" value="UPDATE" class="btn" style="background-color: #87CEFA">
+				<input type="submit" value="UPDATE" class="btn" style="background-color: #FFB6C1">
 			<div>
 			</div>
 

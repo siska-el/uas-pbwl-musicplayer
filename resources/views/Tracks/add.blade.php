@@ -73,7 +73,7 @@
 				<div class="form-group row">
 					<div>
 						<div class="col-sm-10">
-						<button type="submit" class="btn" style="background-color: #87CEFA" >SIMPAN</button></div>
+						<button type="submit" class="btn" style="background-color: #FFB6C1" >SIMPAN</button></div>
 					</div>
 			</form>
 
